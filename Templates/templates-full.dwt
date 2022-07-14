@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Hexashop</title>
+<!-- TemplateEndEditable -->
+<link href="../images/logo-icon.png" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" href="../css/thuvienluoi.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/main-style.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<!--menu-->
+<header>
+	<nav>
+  		<div class="container"><a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+		<div class="row">
+     		<div class="menu">
+	  			<ul>
+        			<li><a href="../index.html">Home</a></li>
+					<li><a href="#Men">Men's &nbsp;</a></li>
+        			<li><a href="#Women">Women's &nbsp;</a></li>
+        			<li><a href="#Kid">Kid's &nbsp;</a></li>
+					<li><a href="../html-dif/check-out-prod.html">Products &nbsp;<i class="fa fa-caret-down"></i></a>
+          				<ul>
+            				<li><a href="../html-dif/detail-prod.html">Men's</a></li>
+            				<li><a href="../html-dif/detail-prod.html">Women's</a></li>
+            				<li><a href="../html-dif/detail-prod.html">Kid's</a></li>
+            				<li><a href="../html-dif/detail-prod.html">accessory</a></li>
+          				</ul>
+        			</li>
+        			<li><a href="../html-dif/contact-us.html">Contact Us &nbsp;</a></li>
+        			<li><a href="../html-dif/about.html">About</a></li>  
+				</ul>   
+    		</div>
+		</div>
+		</div>
+	</nav>
+</header> <!--hết-header-->
+	
+<!-- TemplateBeginEditable name="content-main" -->
+<main></main>
+<!-- TemplateEndEditable --><!--footer-->
+<footer>
+	<div class="container">
+	<div class="row">
+		<div class="col-3">
+		<a href="../index.html"><img src="../images/logo-white.png" alt="logo"></a>
+			<p>16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</p>
+		<p>hexashop@company.com</p>
+		<p>010-020-0340</p>
+		</div>
+		<div class="col-3">
+		<h3>Shopping &amp; Categories</h3>
+			<p class="footer-menu">
+				<a href="#">Men’s Shopping</a>
+				<a href="#"> Women’s Shopping</a>
+				<a href="#">Kid's Shopping</a>
+			</p>
+		</div>
+		<div class="col-3 footer-text">
+		<h3>Useful Links</h3>
+			<p class="footer-menu">
+				<a href="#">Homepage</a>
+				<a href="#">About Us</a>
+				<a href="#">Help</a>
+				<a href="#">Contact Us</a>
+			</p>
+		</div>
+		<div class="col-3">
+		<h3>Help &amp; Information</h3>
+			<p class="footer-menu">
+				<a href="#">Help</a>
+				<a href="#">FAQ's</a>
+				<a href="#">Shipping</a>
+				<a href="#">Tracking ID</a>
+			</p>
+		</div>
+	<hr width="100%" size="0.5px" color="#B4B4B4">
+		</div>
+		<div class="footer-link">
+			<div class="col-12">
+				<p style="text-align: center">Copyright &copy; 2022 HexaShop Co., Ltd. All Rights Reserved.<br> Re-design: Nguyen Ngoc Linh (Leoin Nguyen)</p>
+				<p class="iconxanh" style= "text-align: center">
+					<a href="#"><i class="fa fa-facebook-f fa-lg"></i></a>
+					<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+					<a href="#"><i class="fa fa-linkedin fa-lg"></i></a>  
+					<a href="#"><i class="fa fa-behance fa-lg"></i></a>
+				</p>
+			</div>
+		</div>
+	</div>
+		
+		
+		
+		
+	
+	
+	
+	
+	</footer>
+</body>
+</html>

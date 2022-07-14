@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+*{scroll-behavior: smooth;}
+header{
+	border-bottom: 2px dotted #ddd;
+	padding: 10px;
+	margin: 0;
+	position: fixed;
+	background-color:white; width: 100%;
+	z-index: 99999;
+}
+main{
+	min-height: 250px;
+	padding-top: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+footer{
+	min-height: 500px;
+	background-color: #2a2a2a;
+	color: whitesmoke;
+	padding: 50px 0;
+	line-height: 1.4rem;
+	font-size: 14px;
+}
+a{ text-decoration: none;}
+p.footer-menu a{
+	display: block;
+	color: #E2E2E2;
+	text-decoration: none;
+	padding: 5px 0;
+	line-height: 1rem;
+	transition: 0.3s;
+}
+p.footer-menu a:hover {
+	display: block;
+	color: hsla(0,0%,89%,.5);
+	text-decoration: none;
+	padding: 5px 0;
+	line-height: 1rem;
+}
+
+.iconxanh i {color: aquamarine; padding: 4px; transition: 0.3s;}
+.iconxanh i:hover {color: hsla(0,0%,89%,.5);}
+.iconden i {color: #2A2A2A; padding: 7px; transition: 0.3s;}
+.icondenh i:hover {color: hsla(0,0%,89%,.5);}
+
+nav .container{ 
+	display: flex; 
+	justify-content: space-between; 
+	align-items:center;
+	padding: 0px;
+}
+.menu{z-index: 99999}
+.menu ul{
+	display: flex; /* để các li con của nó lên cạnh nhau*/
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+	 
+	/*bỏ chấm đầu dòng*/
+}
+.menu ul li { position: relative}
+.menu ul li a{ 
+	padding: 5px 20px;
+	text-decoration: none;
+	color: #2A2A2A;
+	font-weight: 700;
+	display: block;
+	text-transform: capitalize;
+	
+	}
+.menu ul li a:hover{ 
+	color: rgba(42,42,42,.4);
+	transition: 0.4s;
+}
+/*--- style cho ul con cấp 2 dropdown - menu*/
+.menu ul ul
+{
+	flex-direction: column;
+	width: 120%;
+	background: #FFF;
+	/*border: 1px solid #ddd;*/
+	/* border-radius: 8px;*/
+/*	overflow: hidden;*/
+	position: absolute;
+	left: 0; top: 100;
+	display: none
+
+}
+.menu ul ul li {
+	border-bottom: 1px solid #eee;	
+}
+.menu ul ul li a {
+	font-weight: 100;
+	font-size: 14px
+}
+.menu ul ul li a:hover{ 
+	background: #fff; 
+	/*border-bottom: 2px solid #D87F00*/
+}	
+.menu ul ul ul
+{ position: absolute; left: 100%; top: 10%; }
+
+.menu ul li:hover >ul{ display: block}
+/*hết style template*/
+.cover {
+	display: flex; /* để các li con của nó lên cạnh nhau*/
+	margin: 0; 
+	padding: 0;
+}
+#cover{
+	padding: 35px 0 25 0;
+	border-bottom: 2px dotted #ddd;
+}
+.sao i {font-size: 14px}
+section {
+	border-bottom: 2px dotted #ddd;
+	padding: 50px;
+}
+.same-section{
+	border-bottom: 2px dotted #ddd;
+}
+#contact{
+	margin-top: 0px;
+}
+.square{
+	background-color: #E5E5E5;
+	width: 100%; height: 100%
+	
+}
+.gia{ color: #3D3D3D}
+.banner,.danhmuc .col-6{position: relative;}
+
+.caption-banner{
+	position: absolute; top: 40%; left: 0; color: #FFF; width: 100%; padding-left: 50px;}
+.danhmuc .caption-danhmuc{
+	position: absolute; width: 100%; left: 0; top:30%; color: #FFF; text-align: center;
+}
+.box-an{
+	background: rgba(0,0,0,1);
+	color: #fff;
+	position: absolute;
+	top:10%; right: 10%;
+	width: 80%; height: 80%;
+	text-align: center;
+	padding: 30px; transition: all .3s;
+	opacity:0; transform: scale(0); z-index: 10;
+}
+.danhmuc .col-6:hover> .box-an{opacity: 1;transform: scale(1)}
+.sanpham .col-4{position: relative;}
+.tacvu{
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	opacity:0;
+	transition: .5s;
+}
+.sanpham .col-4:hover> .tacvu{
+	bottom: 120px;
+	opacity: 1;
+}
+.tacvu i{ 
+	/*border: 1px solid black;*/
+	margin: 5px;
+	padding: 15px;
+	background-color: white;
+	color:#2A2A2A;
+	font-size: 15px;	
+}
+.tacvu i:hover{
+	background-color: whitesmoke;
+}
+.form-email input{
+	margin: 0 15px;
+	padding: 15px 80px 15px 20px;
+	font-size: 12px;
+	font-style: oblique;
+	border-radius: 0;
+	border: 1px solid #ADADAD;
+}
+.form-mess input{
+	margin: -25px 15px 10px;
+	padding: 15px 355px 100px 15px;
+	/*width: 100%;*/
+	font-size: 12px;
+	font-style: oblique;
+	border-radius: 0;
+	border: 1px solid #ADADAD;
+}
+.caption-2{
+	position: absolute;
+	top: 35%;
+	left:0;
+	color: whitesmoke;
+	width: 100%;
+	text-align: center;
+}
+.banner-coverpod{
+	position: relative;
+	max-height: 20%;
+}
+.Oder{
+	border-bottom: 1px solid #DDDDDD;
+	border-top: 1px solid #DDDDDD;
+}
+.lienhe h4{
+	color:  #2A2A2A;
+}
+.number{
+	justify-content: center;
+}
+/*.banner-coverpod{
+	max-height: 200px;
+	display: block;
+}
+*/
+
+
+
+
+
+
